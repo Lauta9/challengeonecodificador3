@@ -1,0 +1,75 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- HREF Que te redirige hacia la pagina de alura-->
+    <header>
+        <a href="https://app.aluracursos.com/formacion-bienvenida-grupo-3"><img class="logo" src="img/Logo@1x.png" alt="Logo Alura"></a>       
+    </header>
+
+    <main>
+
+        <section class="seccion1">
+            <textarea class="textarea" placeholder="Ingrese el texto aqui"></textarea>
+
+          <div class="botones">
+            <div class="avisos">
+                <img class="aviso" src="img/Vectoraviso (1).png" alt="aviso">
+                <p class="parrafo-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <input type="button" class="boton-encriptar" value="Encriptar">
+            <input type="button" class="boton-desencriptar" value="Desencriptar">
+          </div>
+
+        </section>
+
+
+        <section class="seccion2">
+            <div class="contenedormuneco ">
+                <img src="img/Muñeco.png" alt="">
+            </div>
+
+            <!-- Nm = Ningun Mensaje(Abreviatura) -->
+
+            <div class="contenedor-nm ">
+                <h2>Ningún mensaje fue encontrado </h2>
+                <p class="parrafo-nm ">Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <div class="encriptacion">
+                <textarea class="texto-encriptado text-output" disabled></textarea>
+            </div>
+            <div class="copiar">
+                <input type="button"  class="boton-copiar" id="btn-copy" value="Copiar">
+            </div>           
+
+        </section>
+    </main>
+
+
+
+    
+
+    <footer>
+        <p> Hecho por Lautaro Morales ©</p>
+    </footer>
+
+
+
+    <script src="desafio.js">
+       
+        
+    </script>
+
+
+</body>
+</html>
