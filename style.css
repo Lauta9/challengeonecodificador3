@@ -129,6 +129,7 @@ section{
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+    
 }
 
 
@@ -226,4 +227,230 @@ footer{
 
 .ocultar{
     display: none;
+}
+
+
+@media screen and (min-width : 0px ) and (max-width : 360px ){
+    body{
+        background: pink;
+    }
+
+
+.logo{
+    margin: 3 -37;
+    
+}
+
+.textarea{
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding-top: 20%;
+    font-size: 32px;
+}
+
+.seccion2{
+    position: absolute;
+    margin-top: 180%;
+    margin-left: 1.5em;
+    width: 80%;
+    height: 15%;
+}
+
+.contenedormuneco{
+    display: none;
+}
+
+.contenedor-nm{
+    font-size: 15px;
+    border-radius: 25px;    
+}
+
+.boton-copiar{
+    height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.encriptacion,.copiar{
+
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h2{
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;
+}
+
+.botones, .avisos p{
+    width: 100%;
+    display: block;
+    margin-top: 0%;
+    font-size: 14px;
+}
+
+.boton-desencriptar,.boton-encriptar{
+    margin: 5px;
+}
+
+footer{
+    display: none;
+}
+
+}
+
+@media screen and (min-width : 360px ) and (max-width : 480px ){
+    body{
+        background: black;
+    }
+
+    .logo{
+        margin: 3 -37;
+        
+    }
+
+    .textarea{
+        align-items: center;
+        text-align: center;
+        width: auto;
+        padding-top: 20%;
+        font-size: 32px;
+    }
+
+    .seccion2{
+        position: absolute;
+        margin-top: 167%;
+        margin-left: 1.5em;
+        width: 80%;
+        height: 15%;
+    }
+
+    .contenedormuneco{
+    display: none;
+}
+
+    .contenedor-nm{
+        font-size: 15px;
+        border-radius: 25px;    
+    }
+
+    .boton-copiar{
+        height: 20px;
+        width: 40%;
+        margin: auto;
+    }
+
+
+    .encriptacion,.copiar{
+
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    h2{
+        font-size: 23px;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+    .botones, .avisos p{
+        width: 100%;
+        display: block;
+        margin-top: 0%;
+        font-size: 14px;
+    }
+    
+    .boton-desencriptar,.boton-encriptar{
+        margin: 5px;
+    }
+
+    footer{
+        display: none;
+    }
+}
+
+@media screen and (min-width : 480px ) and (max-width : 768px ){
+
+.logo{
+    margin: 3 -37;
+    
+}
+
+.textarea{
+    align-items: center;
+    text-align: center;
+    width: auto;
+    padding-top: 20%;
+    font-size: 32px;
+}
+
+.seccion2{
+    position: absolute;
+    margin-top: 100%;
+    width: 80%;
+    margin-left: 10%;
+    height: 15%;
+    text-align: center;
+}
+
+
+
+.contenedormuneco{
+    display: none;
+}
+
+.contenedor-nm{
+    font-size: 15px;
+    border-radius: 25px; 
+    text-align: center;
+}
+
+
+.boton-copiar{
+    height: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.encriptacion,.copiar{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h2{
+    padding-top: 30px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.botones{
+    display: flex;
+    height: 80%;
+}
+
+.botones, .avisos p{
+    margin-top: 0%;
+    font-size: 14px;
+}
+
+.boton-desencriptar, .boton-encriptar{
+    width: 10000px;
+    height: 55px;
+}
+
+
+.avisos{
+    display: block;
+    width: 1%;
+}
+
+.boton-desencriptar,.boton-encriptar{
+    margin: 0px 15px;
+}
+
+footer{
+    display: none;
+}
+
 }

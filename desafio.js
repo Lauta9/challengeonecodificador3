@@ -19,6 +19,12 @@ botonDesencriptar.onclick = desencriptar;
 function copiarTexto(){
 navigator.clipboard.writeText(textoEncriptado.value);
 
+Swal.fire(
+        'Texto Copiado correctamente!',
+        '',
+        'success'
+      )
+
 
 
 
@@ -28,16 +34,29 @@ copiar.onclick = copiarTexto;
 
 function encriptar(){
     oculto()
+    mostrar()
     var area = recuperartexto();
     textoEncriptado.textContent = encriptacion(area)
+    Swal.fire(
+        'Texto Encriptado correctamente!',
+        '',
+        'success'
+      )
 
     
 }
 
 function desencriptar(){
     oculto()
+    mostrar()
     var area = recuperartexto();
     textoEncriptado.textContent = desencriptacion(area)
+
+    Swal.fire(
+        'Texto Desencritpado correctamente!',
+        '',
+        'success'
+      )
 
 
 }
@@ -52,6 +71,11 @@ function oculto(){
     muneco.classList.add("ocultar");
     h2.classList.add("ocultar");
     parrafo.classList.add("ocultar");
+
+}
+
+function mostrar(){
+    copiar.classList.remove("ocultar")
 }
 
 function encriptacion(mensaje){
